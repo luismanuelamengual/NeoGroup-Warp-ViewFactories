@@ -1,0 +1,44 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.luismanuelamengual</groupId>
+    <artifactId>NeoGroup-Warp-ViewFactories</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>NeoGroup-Warp-ViewFactories</name>
+    <description>View factory implementations for the warp framework</description>
+    <url>https://github.com/luismanuelamengual/NeoGroup-Warp-ViewFactories</url>
+
+    <modules>
+        <module>NeoGroup-Warp-ViewFactory-Velocity</module>
+    </modules>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git@github.com:luismanuelamengual/NeoGroup-Warp-ViewFactories.git</connection>
+        <developerConnection>scm:git:git@github.com:luismanuelamengual/NeoGroup-Warp-ViewFactories.git</developerConnection>
+        <url>scm:git:git@github.com:luismanuelamengual/NeoGroup-Warp-ViewFactories.git</url>
+    </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
